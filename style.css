@@ -2,36 +2,37 @@
     font-family: sans-serif;
 }
 
-p,
-h1,
-h4 {
+.color_set {
     color: #1F3F68;
 }
 
-p {
+
+.paragraf {
     font-size: 16px;
     line-height: 26px;
 }
 
-h1 {
+.heading_h1 {
     font-size: 64px;
 }
 
-h2 {
+.heading_h2 {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
 
-h3 {
+.heading_h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.heading_h3 {
     font-size: 36px;
     text-align: center;
 }
 
-h4 {
-    font-size: 20px;
-    line-height: 30px;
-}
+
 
 .form_input {
     border: 1px solid #356EAD;
