@@ -26,6 +26,7 @@
 .heading_h4 {
     font-size: 20px;
     line-height: 30px;
+    text-transform: uppercase;
 }
 
 .heading_h3 {
@@ -84,6 +85,8 @@ width: 33%;
 margin: 10px;
 }
 
+
+
 .footer_hello_text {
     border: 5px solid red;
     margin-top: 20px;
@@ -133,6 +136,14 @@ margin: 10px;
 
 
 
+
+.contact_box_card {
+   box-sizing: border-box;
+   display: inline-block;
+}
+.contact_box_card ul {
+    list-style: none;
+}
 .form_input {
     border: 1px solid #356EAD;
     box-sizing: border-box;
@@ -153,7 +164,8 @@ margin: 10px;
 }
 
 .yandex-map{
-    padding: 0px;
+    padding: 20px;
+
 }
 
 
