@@ -13,9 +13,6 @@
     line-height: 26px;
 }
 
-.heading_h1 {
-    font-size: 64px;
-}
 
 .heading_h2 {
     font-weight: 500;
@@ -37,8 +34,8 @@
 
 
 .wrap_box {
-    width: 100%;
-    border: 5px solid purple;
+margin: 0 auto;
+background: purple;
 
 }
 
@@ -65,15 +62,26 @@
 .nav_box a {text-decoration: none;}
 
 
-.hello_box {
-    width: 50%;
-    box-sizing: border-box;
-    margin-top: 50px;
-    border: 5px solid aqua;
-    padding: 20px;
-    margin-bottom: 10px;
 
+
+
+
+
+
+.hello_box {
+background: aqua;
 }
+.hello_box h1 {
+    font-size: 64px;
+    width: 510px;
+}
+.hello_box p {
+    width: 425px;
+}
+
+
+
+
 
 
 
