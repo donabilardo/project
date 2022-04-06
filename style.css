@@ -129,33 +129,36 @@ flex-basis: 359px;
 
 
 .footer_box {
-    border: 5px solid yellowgreen;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+
     box-sizing: border-box;
 }
 .footer_box_card {
-    width: 33%;
-    border: 5px solid pink;
-    margin: 20px;
-    padding: 20px;
+       background: pink;
+       box-sizing: border-box;
+       width: 495px;
+}
+.footer_box_card h3 {
+    width: 340px;
 }
 .wrap_box hr {
-    border: 5px solid black;
-    width: 75%;
-    margin: 0 auto;
+
     margin-top: 15px;
     margin-bottom: 15px;
 }
 .footer_box_contact {
-    margin: 0 auto;
-    border: 5px solid blue;
-    padding: 20px;
+background: blue;
     box-sizing: border-box;
 }
 .footer_box_contact ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.footer_box_contact a {
+    text-decoration: none;
+    color: #fff;
 }
 
 
