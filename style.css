@@ -111,17 +111,14 @@ flex-basis: 359px;
 
 
 .footer_hello_text {
-    border: 5px solid red;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+background: rgb(226, 147, 147);
     box-sizing: border-box;
 
 }
 .footer_hello_text h3 {
     text-transform: capitalize;
-    font-weight: 500;
     text-align: center;
+ 
 }
 .footer_hello_text p {
     text-align: center;
@@ -163,13 +160,24 @@ background: blue;
 
 
 
-
 .contact_box_card {
-   box-sizing: border-box;
-   display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(168, 94, 94);
 }
-.contact_box_card ul {
+.contact_box_card_item {
+    box-sizing: border-box;
+    background: rgb(79, 79, 88);
+    flex-grow: 1;
+    margin: 5px;
+}
+.contact_box_card_item ul {
     list-style: none;
+}
+.contact_box_card_item img {
+    max-width: 350px;
+
+    
 }
 .form_input {
     border: 1px solid #356EAD;
@@ -191,7 +199,7 @@ background: blue;
 }
 
 .yandex-map{
-    padding: 20px;
+    padding: 0px;
 
 }
 
