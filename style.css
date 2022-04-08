@@ -92,7 +92,7 @@ background: aqua;
 .product_box {
 background: green;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 flex-wrap: wrap;
     padding: 10px;
     box-sizing: border-box;
@@ -175,10 +175,12 @@ background: blue;
     list-style: none;
 }
 .contact_box_card_item img {
-    max-width: 350px;
-
-    
+    max-width: 350px;    
 }
+
+
+
+
 .form_input {
     border: 1px solid #356EAD;
     box-sizing: border-box;
