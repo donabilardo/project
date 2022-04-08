@@ -59,5 +59,4 @@ $RECYCLE.BIN/
 .nfs*
 
 # End of https://www.toptal.com/developers/gitignore/api/linuxbox-blog
-box-blog\n
-box-blog
+box-blog/
