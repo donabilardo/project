@@ -33,6 +33,8 @@
 
 
 
+
+
 .wrap_box {
 padding: 0px;
 margin: 0px;
@@ -44,23 +46,21 @@ background: purple;
     margin: 0 auto;
     max-width: 1140px;
     background: rgb(167, 139, 193);
-    padding: 10px;
     box-sizing: border-box;
 }
 
+
+
 .nav_box {
     margin: 0 auto;
-    background: green;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+    background: green; 
+    margin-top: 34px;   
 }
+
 .nav_box ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
 .nav_box a {text-decoration: none;}
