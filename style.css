@@ -38,23 +38,21 @@
 .wrap_box {
 padding: 0px;
 margin: 0px;
-background: purple;
+/*background: purple;*/
 
 }
-
 .container {
     margin: 0 auto;
     max-width: 1140px;
-    background: rgb(167, 139, 193);
-    box-sizing: border-box;
+   /* background: rgb(167, 139, 193);*/
 }
 
 
 
 .nav_box {
     margin: 0 auto;
-    background: green; 
-    margin-top: 34px;   
+    margin-top: 34px; 
+    /*background: green;  */ 
 }
 
 .nav_box ul {
