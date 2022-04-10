@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +40,10 @@
 padding: 0px;
 margin: 0px;
 /*background: purple;*/
-
+}
+.wrap_box_hero_container {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 .container {
     margin: 0 auto;
@@ -49,16 +53,19 @@ margin: 0px;
 
 
 
+
+
+
 .nav_box {
     margin: 0 auto;
     margin-top: 34px; 
     /*background: green;  */ 
 }
-
 .nav_box ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .nav_box a {text-decoration: none;}
@@ -68,17 +75,48 @@ margin: 0px;
 
 
 
-
-
-.hello_box {
-background: aqua;
-}
 .hello_box h1 {
-    font-size: 64px;
-    width: 510px;
+width: 510px;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 64px;
+line-height: 74px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+margin-top: 107px;
 }
+
 .hello_box p {
-    width: 425px;
+width: 425px;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+margin-top: 32px;
+}
+.hello_box a {
+    text-decoration: none;
+}
+.hello_box_button {
+width: 220px;
+height: 56px;
+background: #5A98D0;
+box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+margin-top: 71px;
 }
 
 
