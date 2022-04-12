@@ -25,11 +25,17 @@
     font-size: 20px;
     line-height: 30px;
     text-transform: uppercase;
+    
 }
 
 .heading_h3 {
-    font-size: 36px;
-    text-align: center;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
 }
 
 
@@ -43,6 +49,7 @@ margin: 0px;
 .wrap_box_index {
 height: 768px;
 background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+
 }
 
 .container {
@@ -88,9 +95,6 @@ background-image:url(img/illustration.svg);
 background-repeat: no-repeat;
 background-position: right;
 }
-
-
-
 .hello_box h1 {
 width: 510px;
 font-family: 'Roboto';
@@ -101,7 +105,6 @@ letter-spacing: 0.04em;
 color: #1F3F68;
 
 }
-
 .hello_box p {
 width: 425px;
 font-family: 'Roboto';
@@ -113,7 +116,6 @@ color: #1F3F68;
 opacity: 0.6;
 margin-top: 32px;
 }
-
 .hello_box_button {
 width: 220px;
 height: 56px;
@@ -137,6 +139,11 @@ text-decoration: none;
 max-width: 220px;
 }
 
+
+
+.what_we_do_h3 {
+    padding: 64px 0px;
+}
 
 
 
