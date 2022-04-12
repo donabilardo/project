@@ -200,19 +200,35 @@ display: inline-block;
 
 
 
-
 .footer_hello_text {
-background: rgb(226, 147, 147);
-    box-sizing: border-box;
-
+    margin: 0 auto;
+ width: 75%;
+padding-top: 64px;
+justify-content: center;
+box-sizing: border-box;
+padding-bottom: 32px;
 }
 .footer_hello_text h3 {
-    text-transform: capitalize;
-    text-align: center;
- 
+text-transform: capitalize;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000; 
+padding-bottom: 32px;
 }
 .footer_hello_text p {
-    text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #222222;
+text-align: center;
 }
 
 
