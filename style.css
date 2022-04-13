@@ -184,6 +184,7 @@ opacity: 0.6;
 padding-left: 32px;
 padding-right: 32px;
 padding-top: 15px;
+padding-bottom: 28px;
 }
 .product_card a {
 text-decoration: none;
@@ -193,20 +194,19 @@ font-size: 14px;
 line-height: 30px;
 letter-spacing: 0.05em;
 color: #5A98D0;
-padding-top: 28px;
 margin-left: 32px;
-display: inline-block;
+width: max-content;
 }
 
 
 
 .footer_hello_text {
-    margin: 0 auto;
- width: 75%;
+margin: 0 auto;
+width: 65%;
 padding-top: 64px;
 justify-content: center;
 box-sizing: border-box;
-padding-bottom: 32px;
+padding-bottom: 64px;
 }
 .footer_hello_text h3 {
 text-transform: capitalize;
@@ -230,6 +230,11 @@ letter-spacing: 0.05em;
 color: #222222;
 text-align: center;
 }
+
+
+
+
+
 
 
 .footer_box {
