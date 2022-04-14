@@ -55,6 +55,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 .container {
     margin: 0 auto;
     max-width: 1140px;
+    min-width: 376px;
 
 }
 .container_bg_img {
@@ -228,6 +229,8 @@ width: max-content;
 margin: 0 auto;
 width: 65%;
 padding-top: 64px;
+display: flex;
+flex-direction: column;
 justify-content: center;
 box-sizing: border-box;
 padding-bottom: 64px;
@@ -254,6 +257,47 @@ letter-spacing: 0.05em;
 color: #222222;
 text-align: center;
 }
+
+
+.project_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.project_parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 112px;
+}
+.project_item {
+    position: relative;
+    flex-grow: 1;
+}
+.project_parent div:first-child {
+    margin-right: 32px;
+}
+.project_text {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 32px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+position: absolute;
+}
+.text_smart_home {
+    top: 64px;
+    right: 64px;
+}
+.text_app {
+    top: 32px;
+    left: 32px;
+}
+
+
+
+
 
 
 
