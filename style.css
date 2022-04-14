@@ -309,7 +309,36 @@ border: 1px solid #FFFFFF;
 }
 
 .footer_box {
+    display: flex;
+    justify-content: space-between;
+
 }
+.footer_box_button {
+    flex-grow: 1;
+    position: relative;
+}
+.footer_box_button button {
+width: 236.63px;
+height: 56px;
+background: #5A98D0;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+border: 0px;
+position: absolute;
+top: 165px;
+right: 0px;
+}
+.footer_box_button button:hover{
+    box-shadow: 0px 0px 2px 2px;
+    cursor: pointer;
+}
+
+
 .footer_box_card {
 width: 495px;
 }
