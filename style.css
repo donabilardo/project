@@ -296,7 +296,147 @@ position: absolute;
 
 
 
+.gallery_grid{
 
+padding-bottom: 112px;
+}
+.gallery_grid_item{
+display: flex;
+position: relative;
+max-width: 1140px;
+max-height: 480px;
+}
+.gallery_grid_inner:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+    border-radius: 10px;
+    content: '';
+}
+.gallery_grid_inner:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(img/Group.png);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    content: '';
+}
+
+
+.gallery_grid_img {
+height: 100%;
+width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.gallery_grid_item_title{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 32px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+position: absolute;
+top: 64px;
+right: 64px;
+}
+.gallery_grid_item:hover {
+    cursor: pointer;
+}
+.gallery_grid_item:hover > .gallery_grid_inner:before {
+    opacity: 0.3;
+}
+.gallery_grid_item:hover>.gallery_grid_inner>.gallery_grid_item_title>span{
+    color: red;
+}
+
+
+
+.gallery_grid_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.gallery_grid_img_app, .gallery_grid_img_car {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery_grid_inner_app:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);    
+    content: '';
+    border-radius: 10px;
+}
+.gallery_grid_inner_car:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+ background: linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);    
+    content: '';
+    border-radius: 10px; 
+}
+
+
+.gallery_grid_inner_app, .gallery_grid_inner_car {
+    position: relative;
+    max-width: 554px;
+    max-height: 417px;
+}
+.gallery_grid_item_title_app {
+    position: absolute;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+top: 32px;
+left: 32px;
+}
+.gallery_grid_item_title_car {
+    position: absolute;
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+top: 32px;
+left: 32px;
+}
+
+.gallery_grid_item_app:hover,.gallery_grid_item_car:hover {
+    cursor: pointer;
+}
+.gallery_grid_item_app:hover > .gallery_grid_inner_app:before {
+    opacity: 0.3;
+}
+.gallery_grid_item_car:hover>.gallery_grid_inner_car:before {
+    opacity: 0.3;
+}
+.gallery_grid_item_car:hover > .gallery_grid_inner_car > .gallery_grid_item_title_car> span{
+    color: red;
+}
+.gallery_grid_item_app:hover>.gallery_grid_inner_app>.gallery_grid_item_title_app>span{
+    color: red;
+}
 
 
 .wrap_footer {
@@ -365,6 +505,8 @@ padding-bottom: 96px;
 
 
 .footer_box_contact {
+    margin: 0px;
+    padding: 0px;
 }
 .footer_box_contact ol {
     display: flex;
@@ -438,7 +580,6 @@ padding-bottom: 64px;
     border-radius: 10px;
     opacity: 0.4;
 }
-
 .form_button {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -450,7 +591,6 @@ padding-bottom: 64px;
     color: #FFFFFF;
     text-transform: uppercase;
 }
-
 .yandex-map{
     padding: 0px;
 
