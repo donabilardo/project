@@ -334,11 +334,9 @@ top: 165px;
 right: 0px;
 }
 .footer_box_button button:hover{
-    box-shadow: 0px 0px 2px 2px;
+    box-shadow: 0px 0px 5px 5px rgba(31, 63, 104, 0.37);
     cursor: pointer;
 }
-
-
 .footer_box_card {
 width: 495px;
 }
@@ -367,19 +365,35 @@ padding-bottom: 96px;
 
 
 .footer_box_contact {
-background: blue;
-    box-sizing: border-box;
 }
-.footer_box_contact ul {
-    list-style: none;
+.footer_box_contact ol {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+   padding: 64px 0px 64px 0px;
     color: #fff;
+}
+.footer_box_contact li {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
 }
 .footer_box_contact a {
     text-decoration: none;
     color: #fff;
+}
+.footer_box_contact p {
+ font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.4;
+padding-bottom: 64px;
 }
 
 
