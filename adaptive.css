@@ -1,9 +1,12 @@
 .global_wrap {
-    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .global_top {
-
+flex-grow: 1;
+background: #ccc;
 }
 
 .global_bottom {
