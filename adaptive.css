@@ -6,9 +6,20 @@
 
 .global_top {
 flex-grow: 1;
-background: #ccc;
 }
 
 .global_bottom {
+
+}
+
+
+
+@media (max-width:1200px) {
+    .container_bg_img {
+        padding: 0px 34px 0px 34px;
+    }
+    .top_info {
+        background-size: 44%;
+    }
 
 }
