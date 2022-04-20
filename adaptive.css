@@ -151,7 +151,19 @@
 
 .project_item {
     box-sizing: border-box;
+}
 
+.wrap_footer {
+    background: #316099;
+}
+
+.footer_box_card h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
 
 @media (min-width:901px) {
@@ -283,10 +295,33 @@
     .grow_margin {
         margin-right: 32px;
     }
+
     .project_wrap {
         margin-bottom: 112px;
     }
 
+    .footer_box_card h3 {
+        padding-top: 91px;
+        max-width: 340px;
+    }
+.footer_box_card{
+    display: flex;
+}
+    .footer_box_card p {
+        padding-top: 32px;
+        padding-bottom: 96px;
+        max-width: 450px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+.footer_box_button {
+
+}
 
 
 }
@@ -433,8 +468,31 @@
     .grow_margin {
         margin-right: 32px;
     }
+
     .project_wrap {
         margin-bottom: 109px;
+    }
+
+    .footer_box_card h3 {
+        padding-top: 47px;
+        max-width: 336px;
+    }
+
+    .footer_box_card {
+        padding-left: 124px;
+    }
+
+    .footer_box_card p {
+        padding-top: 32px;
+        padding-bottom: 96px;
+        max-width: 450px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
     }
 }
 
@@ -577,8 +635,35 @@
         font-size: 16px;
         line-height: 19px;
     }
+
     .project_wrap {
         margin-bottom: 64px;
+    }
+    .footer_box_card h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        padding-top: 18px;
+        max-width: 330px;
+    }
+    .footer_box_card {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer_box_card p {
+        padding-top: 32px;
+        padding-bottom: 40px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+
+        opacity: 0.6;
     }
 
 }
