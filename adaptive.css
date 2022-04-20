@@ -125,6 +125,35 @@
     color: #222222;
 }
 
+.project_img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project_item {
+    position: relative;
+}
+
+.project_text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.project_parent {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.project_item {
+    box-sizing: border-box;
+
+}
+
 @media (min-width:901px) {
     .container {
         margin: 0 auto;
@@ -227,6 +256,35 @@
         text-align: center;
         margin: 0 auto;
     }
+
+    .text_smart_home {
+        display: block;
+        position: absolute;
+        top: 64px;
+        right: 64px;
+    }
+
+    .text_app {
+        display: block;
+        position: absolute;
+        top: 32px;
+        left: 32px;
+    }
+
+    .project_parent {
+        padding-top: 32px;
+        justify-content: space-between;
+    }
+
+    .project_item {
+        flex-grow: 1;
+    }
+
+    .grow_margin {
+        margin-right: 32px;
+    }
+
+
 
 }
 
@@ -340,6 +398,38 @@
         margin: 0 auto;
     }
 
+    .project_wrap {
+        margin: 0px 32px 0px 32px;
+    }
+
+    .text_smart_home {
+        display: block;
+        position: absolute;
+        top: 64px;
+        right: 64px;
+        font-size: 28px;
+    }
+
+    .text_app {
+        display: block;
+        position: absolute;
+        top: 32px;
+        left: 32px;
+        font-size: 28px;
+    }
+
+    .project_parent {
+        padding-top: 32px;
+        justify-content: space-between;
+    }
+
+    .project_item {
+        flex-grow: 1;
+    }
+
+    .grow_margin {
+        margin-right: 32px;
+    }
 }
 
 @media (min-width:300px) and (max-width:450px) {
@@ -424,7 +514,7 @@
 
     .product_card {
         max-width: 335px;
-        min-height: 448px;
+        min-height: 457px;
         padding: 40px 30px 20px 30px;
         margin: 0px 20px 32px 20px;
         box-sizing: border-box;
@@ -452,6 +542,33 @@
         display: block;
         text-align: center;
         margin: 0px 15px 0px 15px;
+    }
+
+    .project_parent {
+        flex-direction: column;
+    }
+
+    .project_wrap {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .text_smart_home {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+    }
+    .text_app {
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        font-weight: 400;
+font-size: 16px;
+line-height: 19px;
     }
 
 }
