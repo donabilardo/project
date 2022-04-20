@@ -283,6 +283,9 @@
     .grow_margin {
         margin-right: 32px;
     }
+    .project_wrap {
+        margin-bottom: 112px;
+    }
 
 
 
@@ -430,6 +433,9 @@
     .grow_margin {
         margin-right: 32px;
     }
+    .project_wrap {
+        margin-bottom: 109px;
+    }
 }
 
 @media (min-width:300px) and (max-width:450px) {
@@ -561,14 +567,18 @@
         line-height: 19px;
         text-align: right;
     }
+
     .text_app {
         display: block;
         position: absolute;
         top: 16px;
         left: 16px;
         font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .project_wrap {
+        margin-bottom: 64px;
     }
 
 }
