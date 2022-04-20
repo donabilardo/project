@@ -52,11 +52,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1140px;
 
-}
 .container_bg_img {
     display: flex;
     flex-direction: column;
@@ -90,7 +86,7 @@ height: 100%;
 }
 .top_info {
 flex-grow: 1;
-margin-top: 115px;
+padding-top: 115px;
 background-image:url(img/illustration.svg);
 background-repeat: no-repeat;
 background-position: right;
@@ -114,7 +110,7 @@ line-height: 26px;
 letter-spacing: 0.05em;
 color: #1F3F68;
 opacity: 0.6;
-margin-top: 32px;
+padding: 32px 0px 72px 0px;
 }
 .hello_box_button {
 width: 220px;
@@ -132,7 +128,6 @@ font-size: 16px;
 line-height: 26px;
 text-align: center;
 letter-spacing: 0.04em;
-margin-top: 71px;
 }
 .hello_box_button:hover {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
