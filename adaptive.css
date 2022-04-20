@@ -92,6 +92,7 @@
         letter-spacing: 0.05em;
         color: #1F3F68;
         opacity: 0.6;
+        text-transform: capitalize;
     }
 
     .top_button {
@@ -124,6 +125,9 @@
         padding-top: 64px;
         padding-bottom: 64px;
     }
+    .product_card img {
+        max-height: 120px;
+    }
 }
 
 @media (min-width:451px) and (max-width:1025px) {
@@ -133,7 +137,7 @@
     }
 
     .wrap_index {
-        height: 768px;
+       height: 768px;
     }
 
     .nav {
@@ -167,6 +171,7 @@
         letter-spacing: 0.05em;
         color: #1F3F68;
         opacity: 0.6;
+        text-transform: capitalize;
     }
 
     .top_button {
@@ -196,6 +201,9 @@
         letter-spacing: 0.05em;
         color: #000000;
         padding: 64px 32px;
+    }
+    .product_card img {
+        max-height: 112px;
     }
 }
 
@@ -270,4 +278,15 @@
         padding-left: 17px;
         padding-bottom: 32px;
     }
+    .product_card img {
+        max-height: 112px;
+    }
 }
+
+
+
+.product_box {
+    display: flex;
+    justify-content: space-between;
+}
+
