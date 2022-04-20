@@ -26,6 +26,16 @@
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
+.container_bg {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top_info {
+    flex-grow: 1;
+}
+
 .nav {
     list-style: none;
     display: flex;
@@ -47,12 +57,21 @@
         margin: 0 auto;
         max-width: 1140px;
     }
+
     .wrap_index {
         height: 768px;
     }
+
     .nav {
         padding-top: 34px;
     }
+
+    .top_info {
+        background-image: url(/img/illustration.svg);
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
     .top_heading {
         width: 510px;
         font-size: 64px;
@@ -61,9 +80,11 @@
         text-transform: capitalize;
         padding-top: 115px;
     }
+
     .top_text {
         width: 425px;
         padding-top: 32px;
+        padding-bottom: 71px;
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 16px;
@@ -72,6 +93,36 @@
         color: #1F3F68;
         opacity: 0.6;
     }
+
+    .top_button {
+        display: inline-flexbox;
+        width: 120px;
+        height: 26px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+        padding: 15px 50px;
+        text-decoration: none;
+    }
+
+    .what_we_do_h3 {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        padding-top: 64px;
+    }
 }
 
 @media (min-width:451px) and (max-width:1025px) {
@@ -79,12 +130,22 @@
         margin: 0 auto;
         max-width: 900px;
     }
+
     .wrap_index {
         height: 768px;
     }
+
     .nav {
         padding: 28px 34px 0px 34px;
     }
+
+    .top_info {
+        background-image: url(/img/illustration.svg);
+        background-repeat: no-repeat;
+        background-position: right 20px bottom 85px;
+        background-size: 44%;
+    }
+
     .top_heading {
         padding: 118px 0px 0px 32px;
         font-size: 64px;
@@ -94,9 +155,10 @@
         text-transform: capitalize;
 
     }
+
     .top_text {
         width: 425px;
-        padding: 32px 0px 0px 32px;
+        padding: 32px 0px 72px 32px;
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 16px;
@@ -105,19 +167,45 @@
         color: #1F3F68;
         opacity: 0.6;
     }
+
+    .top_button {
+        display: inline-flexbox;
+        width: 120px;
+        height: 26px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+        padding: 15px 50px;
+        text-decoration: none;
+        margin-left: 32px;
+    }
 }
 
-@media (min-width:280px) and (max-width:450px) {
+@media (min-width:300px) and (max-width:450px) {
     .container {
+        max-width: 100%;
         margin: 0 auto;
-        max-width: 450px;
     }
+
     .wrap_index {
-        height: 376px;
+        min-height: 385px;
     }
+
     .nav {
         padding: 16px 16px 0px 16px;
     }
+
+    .top_info {
+        background-image: none;
+    }
+
     .top_heading {
         font-size: 32px;
         line-height: 38px;
@@ -125,8 +213,9 @@
         letter-spacing: 0.04em;
         padding: 36px 19px 0px 19px;
     }
+
     .top_text {
-        padding: 12px 16px 0px 16px;
+        padding: 12px 16px 22px 16px;
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 16px;
@@ -135,5 +224,26 @@
         letter-spacing: 0.05em;
         color: #1F3F68;
         opacity: 0.6;
+    }
+
+    .top_button_block {
+        text-align: center;
+    }
+
+    .top_button {
+        display: inline-block;
+        width: 108px;
+        height: 27px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #5A98D0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+        padding: 0.29em 0.42em;
+        text-decoration: none;
     }
 }
